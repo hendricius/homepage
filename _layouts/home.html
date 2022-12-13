@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="screen">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hendrik Kleinwächter - Baking Software and Bread</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:image" content="{{ site.url }}/assets/images/og_image.webp">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description_short }}">
+    
+  </head>
+	<body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="header__image">
+          <a alt="Go to homepage" href="/">
+            <img alt="Profile photo"src="/assets/images/profile.webp">
+          </a>
+        </div>
+        <div class="header__welcome">Gluten Tag!</div>
+
+        <div class="header__description"><p>{{ site.description }}<p></div>
+      </div>
+
+      <div class="links">
+        {% for link in site.data.links %}
+          <div class="terminal">
+            <div class="menu">
+              <div class="buttons close"></div>
+              <div class="buttons minimize"></div>
+              <div class="buttons zoom"></div>
+            </div>
+            <div class="content">
+              <h1 class="head">>_  {{ link.name }}</h1>
+              <p class="description"><a target="_blank" href="{{ link.url }}">{{ link.description }} »</a></p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="footer-links">
+        <div class="caption">
+          <p>Responsible for content:</p>
+        </div>
+        <div class="list">
+          <p>Hendrik Kleinwaechter</p>
+          <p>Wattenbergstrasse 13</p>
+          <p>21075 Hamburg, Germany</p>
+          <p><a href="mailto:hendrik@the-bread-code.io">hendrik@the-bread-code.io</a></p>
+        </div>
+      </div>
+    </div>
+	</body>
+</html>

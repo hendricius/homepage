@@ -1,0 +1,7 @@
+url: "https://www.hkleinwaechter.com"
+name: "hkleinwaechter"
+title: "Hendrik Kleinwächter - Baking Software and Bread"
+description: "My name is Hendrik Kleinwächter. I'm a software engineer on a mission to enable everyone around the world to bake delicious bread at home."
+description_short: "Hi. I'm Hendrik and I am a software engineer and baker."
+sass:
+  implementation: sass-embedded

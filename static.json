@@ -1,0 +1,13 @@
+{
+  "clean_urls": true,
+  "https_only": true,
+  "root": "_site/",
+  "headers": {
+    "/": {
+      "Cache-Control": "public, max-age=86400"
+    },
+    "/assets/**": {
+      "Cache-Control": "public, max-age=512000"
+    }
+  }
+}

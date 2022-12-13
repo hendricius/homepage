@@ -1,0 +1,15 @@
+- name: The Bread Code();
+  description: Visit the bread codiverse
+  url: "https://the-bread-code.io"
+- name: Software Engineering
+  description: I write code at dyve
+  url: "https://dyve.agency"
+- name: Open Source
+  description: My open source contributions
+  url: "https://github.com/hendricius"
+- name: Photography
+  description: My work as photographer
+  url: "https://adobe.ly/3Fkt6nn"
+- name: LinkedIn
+  description: Connect with me on LinkedIn
+  url: "https://www.linkedin.com/in/hendrikkleinwaechter/"
