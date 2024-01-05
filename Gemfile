@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'rake'
-gem 'jekyll-sass-converter', github: 'jekyll/jekyll-sass-converter'
+gem 'jekyll-sass-converter', git: 'https://github.com/jekyll/jekyll-sass-converter.git'
 gem 'sass-embedded'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'pry'

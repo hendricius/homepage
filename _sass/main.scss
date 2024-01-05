@@ -8,6 +8,7 @@ $font-size: 16px;
 
 body {
   background: $blue;
+  background-image: url('../images/bg.png');
   color: $white;
   font-family: 'Monaco', sans-serif;
   font-size: $font-size;
@@ -24,6 +25,7 @@ p {
 }
 
 .wrapper {
+  background: $blue;
   display: flex;
   width: 100%;
   box-sizing: border-box;
